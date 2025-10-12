@@ -11,28 +11,28 @@ export default function ProjectsSection() {
     desc: "AI-driven skincare web app that analyzes facial images to detect conditions and recommend personalized treatments — powered by advanced AI APIs for real-time insights.",
     tags: ["Next.js", "Python", "AI", "Docker"],
     github: "https://github.com/dummy/ai-skincare",
-    image: "/projects/Ai Skin.jpg",
+    image: "/projects/ai-skincare.jpg",
   },
   {
     title: "SellCode SaaS Platform",
     desc: "A secure marketplace for developers to buy and sell source code with Stripe payments, Dockerized deployments, and role-based access — built for scalability and trust.",
     tags: ["Next.js", "Stripe", "Docker", "MongoDB"],
     github: "https://github.com/dummy/sellcode-saas",
-    image: "/projects/SellCode.jpg",
+    image: "/projects/sellcode.jpg",
   },
   {
     title: "Real-Time E-Commerce System",
     desc: "Socket.io-powered e-commerce app enabling instant inventory updates and notifications — ensuring seamless collaboration and real-time shopping experiences.",
     tags: ["React", "Node.js", "Socket.io", "MongoDB"],
     github: "https://github.com/dummy/realtime-ecommerce",
-    image: "/projects/Socketio.jpg",
+    image: "/projects/socketio.jpg",
   },
   {
     title: "next-grid-with-filters (NPM Package)",
     desc: "Customizable React Data Grid with built-in filters, pagination, and tab views — boosting developer productivity and simplifying table creation for enterprise apps.",
     tags: ["React", "NPM", "TypeScript", "UI Library"],
     github: "https://github.com/dummy/next-grid-with-filters",
-    image: "/projects/npm package.png",
+    image: "/projects/npm-package.png",
   },
   {
     title: "MERN Chat Application",
@@ -53,7 +53,7 @@ export default function ProjectsSection() {
     desc: "Production-ready frontend hosting using AWS Amplify with built-in CI/CD, custom domain setup, and serverless scalability — deploy instantly from GitHub.",
     tags: ["Next.js", "AWS Amplify", "CI/CD", "Cloud Hosting"],
     github: "https://github.com/dummy/aws-amplify-deploy",
-    image: "/projects/Amplify.jpg",
+    image: "/projects/amplify.jpg",
   },
 ];
 const devopsProjects = [
@@ -62,7 +62,7 @@ const devopsProjects = [
     desc: "Fully automated pipeline integrating GitHub Actions, Terraform, and Ansible for provisioning, configuration, and zero-downtime deployments with rollback support.",
     tags: ["GitHub Actions", "Terraform", "Ansible", "AWS"],
     github: "https://github.com/dummy/githubactions-terraform-ansible",
-    image: "/projects/github cicd.jpg",
+    image: "/projects/github-cicd.jpg",
   },
   {
     title: "Production Deployment Strategies",
