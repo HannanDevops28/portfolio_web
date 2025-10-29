@@ -25,7 +25,7 @@ export default function ProjectsSection() {
       desc: "AI-driven skincare web app that analyzes facial images to detect conditions and recommend personalized treatments — powered by advanced AI APIs for real-time insights.",
       tags: ["Next.js", "Python", "AI", "Docker"],
       github: "https://github.com/dummy/ai-skincare",
-      image: "/projects/Ai Skin.jpg",
+      image: "/projects/ai-skincare.jpg",
     },
     {
       title: "SellCode SaaS Platform",
@@ -46,7 +46,7 @@ export default function ProjectsSection() {
       desc: "Customizable React Data Grid with built-in filters, pagination, and tab views — boosting developer productivity and simplifying table creation for enterprise apps.",
       tags: ["React", "NPM", "TypeScript", "UI Library"],
       github: "https://github.com/dummy/next-grid-with-filters",
-      image: "/projects/npm package.png",
+      image: "/projects/npm-package.png",
     },
     {
       title: "MERN Chat Application",
@@ -76,7 +76,7 @@ export default function ProjectsSection() {
       desc: "Fully automated pipeline integrating GitHub Actions, Terraform, and Ansible for provisioning, configuration, and zero-downtime deployments with rollback support.",
       tags: ["GitHub Actions", "Terraform", "Ansible", "AWS"],
       github: "https://github.com/dummy/githubactions-terraform-ansible",
-      image: "/projects/github cicd.jpg",
+      image: "/projects/github-cicd.jpg",
     },
     {
       title: "Production Deployment Strategies",
