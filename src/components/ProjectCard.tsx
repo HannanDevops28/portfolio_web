@@ -29,7 +29,7 @@ export default function ProjectCard({
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ delay: index! * 0.1, duration: 0.5 }}
       viewport={{ once: true }}
-      className="group relative glass rounded-xl-2 overflow-hidden shadow-lg border border-white/30 backdrop-blur-xl transition-all"
+      className="group relative rounded-xl overflow-hidden border border-gray-200 bg-white transition-all"
     >
       {/* === Image === */}
       <div className="relative w-full h-40 overflow-hidden">
@@ -39,7 +39,7 @@ export default function ProjectCard({
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-500"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-white/90 via-white/40 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t  via-white/40 to-transparent" />
       </div>
 
       {/* === Content === */}
@@ -67,8 +67,7 @@ export default function ProjectCard({
           href={github}
           target="_blank"
           rel="noreferrer"
-          // whileHover={{ scale: 1.15 }}
-          className="p-2 bg-white/70 rounded-full shadow-md text-hgreen-700"
+          className="p-2  rounded-full shadow-md text-hgreen-700"
         >
           <FaGithub size={16} />
         </motion.a>
@@ -78,7 +77,7 @@ export default function ProjectCard({
             target="_blank"
             rel="noreferrer"
             whileHover={{ scale: 1.15 }}
-            className="p-2 bg-white/70 rounded-full shadow-md text-hgreen-700"
+            className="p-2  rounded-full shadow-md text-hgreen-700"
           >
             <FiExternalLink size={16} />
           </motion.a>
