@@ -58,11 +58,6 @@ export default function RootLayout({
         <GlobalBackground />
         
         {/* Floating Particles Overlay */}
-        <div className="fixed inset-0 pointer-events-none -z-5">
-          <FloatingParticles count={8} color="bg-hgreen-400" movementDistance={30} />
-          <FloatingParticles count={5} color="bg-blue-300" movementDistance={40} duration={6} />
-        </div>
-        
         {/* Navigation */}
         <NavBar />
         

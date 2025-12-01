@@ -7,6 +7,28 @@ import { FloatingParticles } from "./FloatingParticlesProps";
 export default function ProjectsSection() {
   const softwareProjects = [
     {
+      title: "AI-Powered Call Center Live Dashboard",
+      desc: "Real-time contact center dashboard combining AI-driven call transcription, sentiment analysis, agent performance metrics, and live call monitoring — delivering instant insights for supervisors and QA teams.",
+      tags: ["Next.js", "AI", "WebSockets", "Real-Time", "NLP", "Tailwind"],
+      github: "https://github.com/dummy/ai-callcenter-dashboard",
+      image: "/projects/ai-call.png",
+    },
+
+    {
+      title: "AI Dental Charting System",
+      desc: "Interactive AI-powered dental odontogram with clinical markings, Perio Charting, Endo diagnostic tools, and auto-selection of affected teeth — built with secure, HIPAA-compliant workflows.",
+      tags: [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "AI",
+        "Odontogram",
+        "Healthcare",
+      ],
+      github: "https://github.com/dummy/ai-dental-charting",
+      image: "/projects/dental.png",
+    },
+    {
       title: "MammoScan AI",
       desc: "AI-powered breast cancer diagnostic platform that analyzes medical images to detect abnormalities and provide clinical insights — leveraging deep learning for accurate tissue classification and risk assessment.",
       tags: [
